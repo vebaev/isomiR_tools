@@ -2,6 +2,7 @@
 
 
 | Tool name |	Type | Tool Features | Year | Authors | Journal/URL |	Reference | (DOI number) |
+--------------------------------------------------------------------------------------------------
 miRMaster	Web	●	Quantification of miRNAs and non-coding RNAs
 ●	Discovering of new miRNAs and isomiRs
 ●	Quantification on known and novel miRNA with miRDeep2
