@@ -1,7 +1,7 @@
 # isomiRs-hidden soldiers in the miRNA regulatory army and how to find them 
 
 
-| Tool name | Type | Tool Features | Year | Authors | Journal/URL | Reference<br/>(DOI number) |
+| Tool name | Type | Tool Features       | Year | Authors | Journal/URL | Reference<br/>(DOI number) |
 |-----------|------|---------------|------|---------|------|----------------------------|
 | miRMaster | Web | ● Quantification of miRNAs and non-coding RNAs<br/>● Discovering of new miRNAs and isomiRs<br/>● Discovering of new miRNAs and isomiRs<br/>● Quantification on known and novel miRNA with miRDeep2<br/>● Preprocessing (adapter trimming, quality filtering, read collapsing)<br/>● Mapping with Bowtie to various ncRNA (rRNAs, snRNAs, snoRNAs, scaRNAs, lincRNAs, piRNAs, tRNAs)<br/>● Exogenous miRNAs mapping with bacteria and viruses<br/>● Used for validation used samples from lung and blood samples from PAX blood RNA pool | 2017 | Tobias Fehlmann et all. | Nucleic Acids Research<br/><br/>Open Access<br/><br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587802/10.1093/nar/gkx595 | 10.1093/nar/gkx595 |
 |QuickMIRSeq|Linux|● Quantify miRNAs and isomiRs<br/>● Avoid of multiple mapping issue of reads of identical sequences<br/>● Clustering and grouping of identical and similar sequences<br/>● Trimming adapters, collapsing, joint mapping with Bowtie<br/>● Remapping reads with mismatches to a reference genome to further reduce the number of false hits|2017|Shanrong Zhao et all.|BMC Bioinformatics<br/><br/>Open Access<br/><br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5359966/|10.1186/s12859-017-1601-4
