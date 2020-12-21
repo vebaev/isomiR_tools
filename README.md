@@ -2,6 +2,8 @@
 
 List of tools updated 01.01.2021
 
+<span style="font-size:4em;">
+
 |Tool name|Type|Tool Features|Year|Authors|Journal/URL|Reference<br>(DOI number)| 
 |:-:|:-:|-----------------------------------------------------------------------|:-:|:-:|:-:|:-:|
 |miRMaster | Web| ● Quantification of miRNAs and non-coding RNAs<br/>● Discovering of new miRNAs and isomiRs<br/>● Discovering of new miRNAs and isomiRs<br/>● Quantification on known and novel miRNA with miRDeep2<br/>● Preprocessing (adapter trimming, quality filtering, read collapsing)<br/>● Mapping with Bowtie to various ncRNA (rRNAs, snRNAs, snoRNAs, scaRNAs, lincRNAs, piRNAs, tRNAs)<br/>● Exogenous miRNAs mapping with bacteria and viruses<br/>● Used for validation used samples from lung and blood samples from PAX blood RNA pool | 2017 |Tobias Fehlmann et all.| Nucleic Acids Research<br/><br/>Open Access<br/><br/>[[URL]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587802/10.1093/nar/gkx595) | 10.1093/nar/ gkx595|
@@ -30,4 +32,7 @@ List of tools updated 01.01.2021
 |Prost!|Standalone<br/>Linux|● Aligns reads to a user-defined genomic dataset.<br/>● Groups reads based on their potential genomic origins, seed sequence and annotation.<br/>● Reports frequencies of individual sequence variations with respect to reference genome and the most expressed sequence. <br/>● Uses Cutadapt and FASTX-toolkit for preprocessing, BBMap suite for alignment, MirBase for annotation and Deseq2 for differential expression.|2019|Thomas Desvignes et all.|Nature<br/><br/>Open Access<br/><br/>[[URL]](https://www.nature.com/articles/s41598-019-40361-8)|10.1038/ s41598-019- 40361-8|
 |OptimiR|Standalone<br/>Linux|● Detect genotyping errors● Suggested the existence of novel miRNAs and highlighted the allelic imbalance expression of polymiRs in heterozygous carriers.● Uses Cutadapt for preprocessing, Bowtie2 for alignment and miRBase for annotation.● Uses a scoring algorithm to identify the most plausible alignments.● Produces a comparison analysis of genotype data provided by the user and the genotype data that could be inferred from the sequenced reads aligned to polymiRs|2019|Florian Thibord et all.|Bioinformatics<br/><br/>Open Access<br/><br/>[[URL]](https://rnajournal.cshlp.org/content/early/2019/02/28/rna.069708.118)|10.1261/ rna.069708.118
 isomiRs: Analyze isomiRs and miRNAs from small RNA-seq|R library|● Uses as input file the count matrix<br/>● Includes various functions for characterization of miRNAs and isomiRs, clustering, differential expression and visualizations.<br/>● Designed to analyze the output of SeqBuster tool or any other tool after converting to the desire format<br/>● user can control the analysis step by step.|2020|Pantano L, Escaramis G|Bioconductor<br/><br/>[[URL]](http://bioconductor.org/packages/release/bioc/html/isomiRs.html)|10.18129/ B9.bioc.isomiRs
+
+
+</span>
 
