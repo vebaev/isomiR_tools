@@ -2,7 +2,7 @@
 
 List of tools updated 01.01.2021
 
-<span style="font-size:4em;">
+<span style="font-size:4;">
 
 |Tool name|Type|Tool Features|Year|Authors|Journal/URL|Reference<br>(DOI number)| 
 |:-:|:-:|-----------------------------------------------------------------------|:-:|:-:|:-:|:-:|
