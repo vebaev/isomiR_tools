@@ -3,20 +3,18 @@
 
 | Tool name |	Type | Tool Features | Year | Authors | Journal/URL |	Reference | (DOI number) |
 |-----------|--------|---------------|------|---------|-------------|-------------|--------------|
-miRMaster	Web	●	Quantification of miRNAs and non-coding RNAs
-●	Discovering of new miRNAs and isomiRs
-●	Quantification on known and novel miRNA with miRDeep2
-●	Preprocessing (adapter trimming, quality filtering, read collapsing)
-●	Mapping with Bowtie to various ncRNA (rRNAs, snRNAs, snoRNAs, scaRNAs, lincRNAs, piRNAs, tRNAs)
-●	Exogenous miRNAs mapping with bacteria and viruses
-●	Used for validation used samples from lung and blood samples from PAX blood RNA pool
-	2017	Tobias Fehlmann et all.	Nucleic Acids Research
+| miRMaster | Web | ●	Quantification of miRNAs and non-coding RNAs | 2017 | Tobias Fehlmann et all. | Nucleic Acids Research | Open Access |
+| --- | --- | --- | --- | --- | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587802/10.1093/nar/gkx595 |
+| --- | --- |●	Discovering of new miRNAs and isomiRs |
+| --- | --- |●	Quantification on known and novel miRNA with miRDeep2 |
+| --- | --- |●	Preprocessing (adapter trimming, quality filtering, read collapsing) |
+| --- | --- |●	Mapping with Bowtie to various ncRNA (rRNAs, snRNAs, snoRNAs, scaRNAs, lincRNAs, piRNAs, tRNAs) |
+| --- | --- |●	Exogenous miRNAs mapping with bacteria and viruses |
+| --- | --- |●	Used for validation used samples from lung and blood samples from PAX blood RNA pool |
+	
 
-Open Access
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587802/
-10.1093/nar/gkx595 
-[80]
+
 
 QuickMIRSeq	Linux	●	Quantify miRNAs and isomiRs 
 ●	Avoid of multiple mapping issue of reads of identical sequences
