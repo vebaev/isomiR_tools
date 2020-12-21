@@ -1,8 +1,8 @@
-# isomiRs-hidden soldiers in the miRNA regulatory army and how to find them 
+## isomiRs-hidden soldiers in the miRNA regulatory army and how to find them 
 
 List of tools updated 01.01.2021
 
-<span style="font-size:22;">
+I am in <span style="font-family:Papyrus; font-size:4em;">LOVE!</span>
 
 |Tool name|Type|Tool Features|Year|Authors|Journal/URL|Reference<br>(DOI number)| 
 |:-:|:-:|-----------------------------------------------------------------------|:-:|:-:|:-:|:-:|
@@ -34,5 +34,4 @@ List of tools updated 01.01.2021
 isomiRs: Analyze isomiRs and miRNAs from small RNA-seq|R library|● Uses as input file the count matrix<br/>● Includes various functions for characterization of miRNAs and isomiRs, clustering, differential expression and visualizations.<br/>● Designed to analyze the output of SeqBuster tool or any other tool after converting to the desire format<br/>● user can control the analysis step by step.|2020|Pantano L, Escaramis G|Bioconductor<br/><br/>[[URL]](http://bioconductor.org/packages/release/bioc/html/isomiRs.html)|10.18129/ B9.bioc.isomiRs
 
 
-</span>
 
