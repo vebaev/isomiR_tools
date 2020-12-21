@@ -7,20 +7,16 @@
 |miRMaster | Web| ● Quantification of miRNAs and non-coding RNAs<br/>● Discovering of new miRNAs and isomiRs<br/>● Discovering of new miRNAs and isomiRs<br/>● Quantification on known and novel miRNA with miRDeep2<br/>● Preprocessing (adapter trimming, quality filtering, read collapsing)<br/>● Mapping with Bowtie to various ncRNA (rRNAs, snRNAs, snoRNAs, scaRNAs, lincRNAs, piRNAs, tRNAs)<br/>● Exogenous miRNAs mapping with bacteria and viruses<br/>● Used for validation used samples from lung and blood samples from PAX blood RNA pool | 2017 | Tobias Fehlmann et all. | Nucleic Acids Research<br/><br/>Open Access<br/><br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587802/10.1093/nar/gkx595 | 10.1093/nar/gkx595|
 |QuickMIRSeq|Linux|● Quantify miRNAs and isomiRs<br/>● Avoid of multiple mapping issue of reads of identical sequences<br/>● Clustering and grouping of identical and similar sequences<br/>● Trimming adapters, collapsing, joint mapping with Bowtie<br/>● Remapping reads with mismatches to a reference genome to further reduce the number of false hits|2017|Shanrong Zhao et all.|BMC Bioinformatics<br/><br/>Open Access<br/><br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5359966/|10.1186/s12859-017-1601-4|
 |iMir|Linux<br/>Mac|● Identification of miRNAs and other sncRNAs, such as piRNAs<br/>● Adapter trimming, quality filtering, differential expression analysis<br/>● Analysis of sncRNAs and novel miRNAs<br/>● Identification of isomirs using miRanalyzer<br/>● Using miRAnalyzer and miRDeep2<br/>● Statistical analysis to remove low expressed sncRNAs<br/>● Differential Expression using Deseq Quantile normalization<br/>● Target Prediction using TargetScan and miRanda|2013|Giorgio Giurato et all.|BMC<br/>Bioinformatics<br/><br/>Open access<br/><br/>https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-362|10.1186/1471-2105-14-362|
-
-
 |MIR-isomiRExp|Web|● Analyze the expression patterns or miRNA/isomer levels<br/>● miRNA maturation and processing mechanism at isomiRs levels<br/>● Using MirBase DB, mapping with Bowtie<br/>● Differential expression using Deseq<br/>● Analysis at the isomiR levels based/independent on miRNA locus<br/>● Arm-switching analysis|2016|Li Guo et all.|Nature<br/><br/>Open Access<br/><br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806314/|10.1038/srep23700|
-
 |miRNAgFree|Linux<br/>Windows|● miRNA prediction based on biogenesis features (known 5’ homogeneity) and isomiR duplex forming<br/>● Uses the sRNAbench preprocessing|2017|EL Aparicio et all.|BioRxiv<br/>https://www.biorxiv.org/content/10.1101/193094v1.full|10.1101/193094| 
-
 |isomiRID|Linux<br/>Mac|● Identification of 5’, 3’ and polymorphic isomiRs<br/>● Identification of non-templated 5’ or 3’ end and variations<br/>● It could be applied to every organism (plants + animals)<br/>● Detection of isomiRs with one mismatch<br/>● Mapping in pre-miRNAs with Bowtie|2013|Luiz Felipe Valter de Oliveira et all.|Bioinformatics<br/><br/>https://academic.oup.com/bioinformatics/article/29/20/2521/276800|10.1093/bioinformatics/btt424|
-
 |MIRPIPE|Web|● Rapid and simple browser-based miRNA homology detection and quantification of miRNAs<br/>● Read counts from isomiRs of the same miRNA are combined. <br/>● Using FASTX-tollkit, Cutadapt, BLASTN|2014|Carsten Kuenne et all.|Bioinformatics<br/><br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4816158/|10.1093/bioinformatics/btu573|
-
-
 |CASMIR|Standalone<br/>Linux|● Sequence-oriented isomiR annotation which allows unbiased identification of global isomiRs from small sequencing data<br/>● Alignment against canonical and precursors from miRBase<br/>● Discovering of canonical, 5’, 3’, polymorphic, mixed type, non-templated isomiRs, quantification using miRDeep2<br/>● In-house trimming and size filtering<br/>● BLAST with in house custom isomiR-BLAST alignment tool<br/>● Differential expression performed with a Poisson regression model combined with a quasi-likelihood approach and AUC based on methods of DeLong and Clarke-Pearson|2018|Chung Wah Wu et all.|BMC Genomics<br/><br/>Open Access<br/><br/>https://www.ncbi.nlm.nih.gov/pubmed/29801434|10.1186/s12864-018-4794-7|
-
 |IsomiR-SEA|Linux<br/>Windows<br/>Mac|● Provide users with a complete and accurate picture of the miRNAs, isomiRs and conserved miRNA:mRNA interaction sites <br/>● Provide accurate miRNA and isomiRs expression levels<br/>● Use a specialized algorithm for alignment<br/>● Evaluates the positions of the encountered mismatches in analyzed tags|2016|Gianvito Urgese et all.|BMC Bioinformatics<br/><br/>https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0958-0|10.1186/s12859-016-0958-0|
+
+
+
+
 
 DeAnnIso
 	Web	●	Detection and Annotation of IsomiRs from sRNA se- quencing data
