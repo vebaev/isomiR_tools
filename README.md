@@ -31,13 +31,3 @@ List of tools updated 01.01.2021
 |OptimiR|Standalone<br/>Linux|● Detect genotyping errors● Suggested the existence of novel miRNAs and highlighted the allelic imbalance expression of polymiRs in heterozygous carriers.● Uses Cutadapt for preprocessing, Bowtie2 for alignment and miRBase for annotation.● Uses a scoring algorithm to identify the most plausible alignments.● Produces a comparison analysis of genotype data provided by the user and the genotype data that could be inferred from the sequenced reads aligned to polymiRs|2019|Florian Thibord et all.|Bioinformatics<br/><br/>Open Access<br/><br/>https://rnajournal.cshlp.org/content/early/2019/02/28/rna.069708.118|10.1261/rna.069708.118
 isomiRs: Analyze isomiRs and miRNAs from small RNA-seq|R library|● Uses as input file the count matrix<br/>● Includes various functions for characterization of miRNAs and isomiRs, clustering, differential expression and visualizations.<br/>● Designed to analyze the output of SeqBuster tool or any other tool after converting to the desire format<br/>● user can control the analysis step by step.|2020|Pantano L, Escaramis G|Bioconductor<br/><br/>http://bioconductor.org/packages/release/bioc/html/isomiRs.html|10.18129/B9.bioc.isomiRs
 
-
-.markdown-preview {
- &, h4, h5, h6 {
-   font-size: font-size;
-  }
-
-  h1 { font-size: font-size; }
-  h2 { font-size: font-size; }
-  h3 { font-size: font-size; }
-}
