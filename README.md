@@ -9,75 +9,18 @@
 |iMir|Linux<br/>Mac|● Identification of miRNAs and other sncRNAs, such as piRNAs<br/>● Adapter trimming, quality filtering, differential expression analysis<br/>● Analysis of sncRNAs and novel miRNAs<br/>● Identification of isomirs using miRanalyzer<br/>● Using miRAnalyzer and miRDeep2<br/>● Statistical analysis to remove low expressed sncRNAs<br/>● Differential Expression using Deseq Quantile normalization<br/>● Target Prediction using TargetScan and miRanda|2013|Giorgio Giurato et all.|BMC<br/>Bioinformatics<br/><br/>Open access<br/><br/>https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-362|10.1186/1471-2105-14-362|
 
 
-MIR-isomiRExp	Web	●	Analyze the expression patterns or miRNA/isomer levels
-●	miRNA maturation and processing mechanism at isomiRs levels
-●	Using MirBase DB, mapping with Bowtie
-●	Differential expression using Deseq 
-●	Analysis at the isomiR levels based/independent on miRNA locus
-●	Arm-switching analysis	2016	Li Guo et all.	Nature 
+|MIR-isomiRExp|Web|● Analyze the expression patterns or miRNA/isomer levels<br/>● miRNA maturation and processing mechanism at isomiRs levels<br/>● Using MirBase DB, mapping with Bowtie<br/>● Differential expression using Deseq<br/>● Analysis at the isomiR levels based/independent on miRNA locus<br/>● Arm-switching analysis|2016|Li Guo et all.|Nature<br/><br/>Open Access<br/><br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806314/|10.1038/srep23700|
 
-Open Access
+|miRNAgFree|Linux<br/>Windows|● miRNA prediction based on biogenesis features (known 5’ homogeneity) and isomiR duplex forming<br/>● Uses the sRNAbench preprocessing|2017|EL Aparicio et all.|BioRxiv<br/>https://www.biorxiv.org/content/10.1101/193094v1.full|10.1101/193094| 
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806314/
-	10.1038/srep23700 
-[83]
+|isomiRID|Linux<br/>Mac|● Identification of 5’, 3’ and polymorphic isomiRs<br/>● Identification of non-templated 5’ or 3’ end and variations<br/>● It could be applied to every organism (plants + animals)<br/>● Detection of isomiRs with one mismatch<br/>● Mapping in pre-miRNAs with Bowtie|2013|Luiz Felipe Valter de Oliveira et all.|Bioinformatics<br/><br/>https://academic.oup.com/bioinformatics/article/29/20/2521/276800|10.1093/bioinformatics/btt424|
 
-miRNAgFree	Linux
-Windows
-	●	miRNA prediction based on biogenesis features (known 5’ homogeneity) and isomiR duplex forming
-●	Uses the sRNAbench preprocessing	2017	EL Aparicio et all.	BioRxiv
+|MIRPIPE|Web|● Rapid and simple browser-based miRNA homology detection and quantification of miRNAs<br/>● Read counts from isomiRs of the same miRNA are combined. <br/>● Using FASTX-tollkit, Cutadapt, BLASTN|2014|Carsten Kuenne et all.|Bioinformatics<br/><br/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4816158/|10.1093/bioinformatics/btu573|
 
-https://www.biorxiv.org/content/10.1101/193094v1.full
-	10.1101/193094 
-[84]
 
-isomiRID	Linux
-Mac	●	Identification of 5’, 3’ and polymorphic isomiRs
-●	Identification of non-templated 5’ or 3’ end and variations
-●	It could be applied to every organism (plants + animals)
-●	Detection of isomiRs with one mismatch
-●	Mapping in pre-miRNAs with Bowtie 	2013	Luiz Felipe Valter de Oliveira et all.	Bioinformatics
+|CASMIR|Standalone<br/>Linux|● Sequence-oriented isomiR annotation which allows unbiased identification of global isomiRs from small sequencing data<br/>● Alignment against canonical and precursors from miRBase<br/>● Discovering of canonical, 5’, 3’, polymorphic, mixed type, non-templated isomiRs, quantification using miRDeep2<br/>● In-house trimming and size filtering<br/>● BLAST with in house custom isomiR-BLAST alignment tool<br/>● Differential expression performed with a Poisson regression model combined with a quasi-likelihood approach and AUC based on methods of DeLong and Clarke-Pearson|2018|Chung Wah Wu et all.|BMC Genomics<br/><br/>Open Access<br/><br/>https://www.ncbi.nlm.nih.gov/pubmed/29801434|10.1186/s12864-018-4794-7|
 
-https://academic.oup.com/bioinformatics/article/29/20/2521/276800
-10.1093/bioinformatics/btt424 
-[85]
-
-MIRPIPE	Web
-	●	Rapid and simple browser-based miRNA homology detection and quantification of miRNAs
-●	Read counts from isomiRs of the same miRNA are combined. 
-●	Using FASTX-tollkit, Cutadapt, BLASTN	2014	Carsten Kuenne et all.	Bioinformatics
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4816158/
-	10.1093/bioinformatics/btu573 
-[86]
-
-CASMIR	Standalone,Linux	●	Sequence-oriented isomiR annotation which allows unbiased identification of global isomiRs from small sequencing data
-●	Alignment against canonical and precursors from miRBase
-●	Discovering of canonical, 5’, 3’, polymorphic, mixed type, non-templated isomiRs, quantification using miRDeep2
-●	In-house trimming and size filtering
-●	BLAST with in house custom isomiR-BLAST alignment tool
-●	Differential expression performed with a Poisson regression model combined with a quasi-likelihood approach and AUC based on methods of DeLong and Clarke-Pearson 
-	2018	Chung Wah Wu et all.	BMC Genomics
-
-Open Access
-
-https://www.ncbi.nlm.nih.gov/pubmed/29801434
-	10.1186/s12864-018-4794-7 
-[87]
-
-IsomiR-SEA	Linux
-Windows
-Mac	●	Provide users with a complete and accurate picture of the miRNAs, isomiRs and conserved miRNA:mRNA interaction sites 
-●	Provide accurate miRNA and isomiRs expression levels
-●	Use a specialized algorithm for alignment
-●	Evaluates the positions of the encountered mismatches in analyzed tags
-	2016	Gianvito Urgese
-At all.	BMC Bioinformatics
-
-https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0958-0
-10.1186/s12859-016-0958-0
-SOFTWARE 
-[88]
+|IsomiR-SEA|Linux<br/>Windows<br/>Mac|● Provide users with a complete and accurate picture of the miRNAs, isomiRs and conserved miRNA:mRNA interaction sites <br/>● Provide accurate miRNA and isomiRs expression levels<br/>● Use a specialized algorithm for alignment<br/>● Evaluates the positions of the encountered mismatches in analyzed tags|2016|Gianvito Urgese et all.|BMC Bioinformatics<br/><br/>https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0958-0|10.1186/s12859-016-0958-0|
 
 DeAnnIso
 	Web	●	Detection and Annotation of IsomiRs from sRNA se- quencing data
