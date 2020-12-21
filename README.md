@@ -11,6 +11,7 @@
 
 
 
+
 QuickMIRSeq	Linux	●	Quantify miRNAs and isomiRs 
 ●	Avoid of multiple mapping issue of reads of identical sequences
 ●	Clustering and grouping of identical and similar sequences
