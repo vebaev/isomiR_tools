@@ -1,6 +1,6 @@
 ## isomiR tools
 
-List of tools updated 01.01.2021
+List of tools updated 01.01.2021 (Cite: Glogovitis, I.; Yahubyan, G.; Würdinger, T.; Koppers-Lalic, D.; Baev, V. isomiRs–Hidden Soldiers in the miRNA Regulatory Army, and How to Find Them? Biomolecules 2021, 11, 41. https://doi.org/10.3390/biom11010041
 
 |Tool name|Type|Tool Features|Year|Authors|Journal<br>URL<br>Reference<br>(DOI number)| 
 |:-:|:-:|-----------------------------------------------------------------------|:-:|:-:|:-:|
